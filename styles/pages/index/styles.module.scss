@@ -2,10 +2,16 @@
     width: 100%;
     height: 100vh;
     background-color: #FFFFFF;
+    display: flex;
 
     [class~= "menulateral-container"] {
         width: 220px;
         height: 100%;
         background-color:#FFFFFF;
+    }
+
+    [class~= "conteudo-container"] {
+        width: 100%;
+        height: 100%;
     }
 }

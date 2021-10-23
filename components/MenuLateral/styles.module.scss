@@ -5,6 +5,7 @@
   height: 100%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 
+  // atributos responsável pela "logo SLACA"
   [class~="slaca-container"] {
     width: 100%;
     height: 68px;
@@ -27,10 +28,10 @@
   [class~="image-container"] {
     width: 100%;
     height: 258px;
-    background: pink;
     background-image: url("../../public/images/slaca.png");
   }
 
+  // atributos responsável pela área de navegação da página incluindo animações de seleção
   [class~="navegation-container"] {
     width: 100%;
 
@@ -49,18 +50,17 @@
         border-bottom: 2px solid #e7e7e7;
         font-family: "Quicksand", sans-serif;
         cursor: pointer;
-        transition: background-color .3s ease;
+        transition: background-color 0.3s ease;
 
         &[class~="selected"] {
           background-color: #fdf1eb;
-          border-left: 5px solid #ED7839;
+          border-left: 5px solid #ed7839;
         }
 
         [class~="link"] {
           text-decoration: none;
           color: #725c5c;
         }
-
       }
     }
   }
